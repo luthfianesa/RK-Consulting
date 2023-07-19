@@ -1,0 +1,1363 @@
+* {
+  font-family: "Rosa Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  background-color: #fffeff;
+}
+
+.navbar-brand {
+  margin-left: 80px;
+  margin-right: 150px !important;
+  width: 250px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.nav-item .active {
+  color: #f62431 !important;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.dropdown-menu li a {
+  margin-left: 0;
+}
+
+/* Navbar Responsive */
+/* Responsive for Small Phone */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 150px !important;
+  }
+
+  .navbar-nav {
+    width: 170px;
+  }
+
+  .navbar-toggler {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px !important;
+    padding: 0 !important;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 220px;
+  }
+
+  .navbar-nav {
+    width: 170px;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 220px;
+  }
+
+  .navbar-nav {
+    width: 170px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 220px;
+  }
+
+  .navbar-nav {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1320px) {
+  .navbar {
+    --bs-navbar-nav-link-padding-x: 0 !important;
+  }
+
+  .navbar-brand {
+    width: 220px;
+  }
+}
+
+/* Responsive for Medium Laptop and Desktop  */
+@media screen and (min-width: 1321px) and (max-width: 1535.5px) {
+  .navbar-brand {
+    width: 235px;
+  }
+}
+/* Navbar Hamburger button collapes at 992px */
+/* End of Navbar */
+
+/* Footer */
+.footer-container {
+  background-color: #0f0f0f;
+}
+
+.footer-content-container {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* width: 1300px; */
+  width: 80%;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  /* padding-left: 50px; */
+  /* border: 1px solid red; */
+}
+
+.footer-logo {
+  width: 83px;
+  /* border: 1px solid #fff; */
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+.footer-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-content h6 {
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.footer-content .footer-active {
+  color: #f62431;
+}
+
+.footer-location,
+.footer-email,
+.footer-telephone {
+  padding-left: 7px;
+}
+
+.footer-location,
+.footer-email,
+.footer-telephone p {
+  font-size: 13px;
+}
+
+.footer-location {
+  display: flex;
+}
+
+.footer-location img {
+  width: 15px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-email {
+  display: flex;
+}
+
+.footer-email img {
+  width: 15px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-telephone {
+  display: flex;
+}
+
+.footer-telephone img {
+  width: 15px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-socmed {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.footer-socmed img {
+  width: 35px;
+  /* height: 20px; */
+}
+
+/* Footer Responsive */
+@media screen and (min-width: 240px) and (max-width: 359px) {
+  .footer-logo {
+    margin-left: 10px;
+  }
+}
+
+/* Responsive for Medium Phone */
+@media screen and (max-width: 480px) {
+  .footer-content-container {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 60px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* Responsive for Large Phone or Phablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .footer-content-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer-logo {
+    margin-left: 10px;
+    padding-top: 12px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 769px) and (max-width: 991.5px) {
+  .footer-content-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .footer-logo {
+    padding-top: 5px;
+  }
+}
+/* End of Footer */
+
+/* Forms */
+.rk-consulting-logo-form {
+  width: 200px;
+  padding-top: 30px;
+  padding-left: 45px;
+}
+
+.form-outer-container {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.leftSide {
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.leftSide-firstBox {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.longVerticalLine {
+  width: 4px;
+}
+
+.leftSide-secondBox {
+  margin-top: 25px;
+  /* border: 1px solid; */
+}
+
+.leftSide .leftRectangles {
+  width: 100px;
+}
+
+.rightSide-form {
+  position: relative;
+  bottom: 70px;
+  /* border: 1px solid; */
+}
+
+.rightSide-form img {
+  width: 100px;
+}
+
+.rotated-text {
+  /* display: none; */
+  color: #646464;
+  font-size: 25px;
+  font-weight: 300;
+  width: 150px;
+  text-align: center;
+  transform: rotate(-90deg);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* border: 1px solid; */
+}
+
+.bold-rotated-text {
+  font-weight: 700;
+}
+
+input {
+  font-size: 22px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  position: relative;
+}
+
+/* Create a custom checkbox */
+input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid red;
+  border-radius: 2px;
+  /* position: absolute;/ */
+  top: 6px;
+  left: 6px;
+}
+
+/* Show the custom check mark icon when checked */
+input[type="checkbox"]:checked::before {
+  /* Show the custom check mark image when checked */
+  background-image: url("assets/checkbox.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Hide the number increment and decrement arrows */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* 1st Form */
+.form1-container {
+  width: 1000px;
+  /* border: 1px solid; */
+}
+
+.form1-section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form1-section1 span {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.form1-section2 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.form1-section2-firstInput {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+.form1-section2-firstInput input {
+  width: 450px;
+}
+
+.form1-section2-secondInput {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form1-section2-secondInput input {
+  width: 450px;
+}
+
+.form1-section3 {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.implementDate-firstInput {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+.implementDate-firstInput input {
+  width: 100%;
+}
+
+.implementDate-middleText {
+  display: flex;
+  align-items: flex-end;
+  /* border: 1px solid; */
+}
+
+.implementDate-middleText h6 {
+  color: #000;
+  font-size: 23px;
+  font-weight: 500;
+  /* border: 1px solid; */
+}
+
+.implementDate-secondInput {
+  width: 450px;
+  display: flex;
+}
+
+.implementDate-secondInput input {
+  width: 100%;
+}
+
+.form1-section1 label,
+.form1-section2 label,
+.form1-section3 label {
+  color: #0f0f0f;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 15px;
+  /* border: 1 px solid; */
+}
+
+.form1-section1 input,
+.form1-section2 input,
+.form1-section3 input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.form1-section4 {
+  margin-top: 10px;
+}
+
+.form1-section3,
+.form1-section4,
+.form1-section5,
+.form1-section6,
+.form1-section7,
+.form1-section8 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form1-heading-section4 {
+  color: #646464;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border: 1px solid; */
+}
+
+.form1-heading-section4 h6 {
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.form1-section4-number,
+.form1-section5-number,
+.form1-section6-number,
+.form1-section7-number,
+.form1-section8-number {
+  width: 32px;
+  text-align: center;
+  margin-right: 20px;
+  /* border: 1px solid; */
+}
+
+.form1-section4-number h3 {
+  color: #646464;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form1-section4-number h4,
+.form1-section5-number h4,
+.form1-section6-number h4,
+.form1-section7-number h4,
+.form1-section8-number h4 {
+  color: #000;
+  font-size: 20px;
+}
+
+.form1-section4-desc,
+.form1-section5-desc,
+.form1-section6-desc,
+.form1-section7-desc,
+.form1-section8-desc {
+  width: 425px;
+  margin-right: 30px;
+  /* border: 1px solid; */
+}
+
+.form1-section4-desc {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 171px; */
+  /* border: 1px solid; */
+}
+
+.form1-section4-desc h3 {
+  color: #646464;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form1-section4-desc h4,
+.form1-section5-desc h4,
+.form1-section6-desc h4,
+.form1-section7-desc h4,
+.form1-section8-desc h4 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form1-section4-desc span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form1-section4-left-checkbox-1 label,
+.form1-section4-left-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form1-section4-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.form1-section4-info h3 {
+  color: #646464;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form1-section4-right-checkbox-1 label,
+.form1-section4-right-checkbox-2 label,
+.form1-section4-right-checkbox-3 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form1-section4-right-checkbox-2 span,
+.form1-section4-right-checkbox-3 span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form1-section5-right-checkbox-1 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form1-section5-right-checkbox-1 span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form1-section6-right-checkbox-1 label,
+.form1-section6-right-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form1-section7-desc span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form1-section7-right-checkbox-1 label,
+.form1-section7-right-checkbox-2 label,
+.form1-section7-right-checkbox-3 label,
+.form1-section7-right-checkbox-4 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form1-section8-right-checkbox-1 label,
+.form1-section8-right-checkbox-2 label,
+.form1-section8-right-checkbox-3 label,
+.form1-section8-right-checkbox-4 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+/* End of 1st Form */
+
+/* 2nd Form */
+/* 2nd Form */
+.form2-container {
+  width: 1000px;
+  padding-top: 110px;
+  /* border: 1px solid; */
+}
+
+.form2-section1,
+.form2-section2,
+.form2-section3,
+.form2-section4,
+.form2-section5,
+.form2-section6 {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form2-section1-number,
+.form2-section2-number,
+.form2-section3-number,
+.form2-section4-number,
+.form2-section5-number,
+.form2-section6-number {
+  width: 32px;
+  text-align: center;
+  margin-right: 20px;
+  /* border: 1px solid; */
+}
+
+.form2-section1-number h4,
+.form2-section2-number h4,
+.form2-section3-number h4,
+.form2-section4-number h4,
+.form2-section5-number h4,
+.form2-section6-number h4 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  /* border: 1px solid; */
+}
+
+.form2-section1-desc,
+.form2-section2-desc,
+.form2-section3-desc,
+.form2-section4-desc,
+.form2-section5-desc {
+  width: 425px;
+  margin-right: 60px;
+  /* border: 1px solid; */
+}
+
+.form2-section1-desc h4,
+.form2-section2-desc h4,
+.form2-section3-desc h4,
+.form2-section4-desc h4,
+.form2-section5-desc h4,
+.form2-section6-desc h4 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form2-section1-info,
+.form2-section2-info,
+.form2-section3-info,
+.form2-section4-info,
+.form2-section5-info {
+  width: 470px;
+  /* border: 1px solid; */
+}
+
+.form2-section1-desc {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 171px; */
+  /* border: 1px solid; */
+}
+
+.form2-section1-desc h3 {
+  color: #646464;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form2-section1-desc span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form2-section1-left-checkbox-1 label,
+.form2-section1-left-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form2-section1-info {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+}
+
+.form2-section1-right-checkbox-1 label,
+.form2-section1-right-checkbox-2 label,
+.form2-section1-right-checkbox-3 label,
+.form2-section1-right-checkbox-4 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form2-section1-right-checkbox-3 span,
+.form2-section1-right-checkbox-4 span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form2-section2-right-checkbox-1 {
+  display: flex;
+  /* border: 1px solid; */
+}
+.form2-section2-right-checkbox-2 {
+  display: flex;
+  /* border: 1px solid; */
+}
+
+.form2-section2-right-checkbox-1 label,
+.form2-section2-right-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+  /* border: 1px solid; */
+}
+
+.form2-mealsProvided {
+  margin-left: 9.5px;
+}
+
+.form2-mealsProvided label {
+  margin-left: 0;
+}
+
+.form2-onlyLunch-container {
+  margin-left: 9.5px;
+  /* border: 1px solid; */
+}
+
+.form2-onlyLunch-container label {
+  margin-left: 0;
+}
+
+.form2-section3-right-checkbox-1 label,
+.form2-section3-right-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form2-section4-desc span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form2-section4-right-checkbox-1 {
+  display: flex;
+}
+
+.form2-section4-right-checkbox-1 label,
+.form2-section4-right-checkbox-2 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form2-availableForImplementors {
+  margin-left: 9.5px;
+}
+
+.form2-availableForImplementors label {
+  margin-left: 0;
+}
+
+.form2-section5-desc span {
+  color: #969696;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form2-section5-right-checkbox-1 label,
+.form2-section5-right-checkbox-2 label,
+.form2-section5-right-checkbox-3 label {
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+
+.form2-section6-desc ul {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 30px;
+  /* border: 1px solid; */
+}
+
+.form2-section6-desc ul span {
+  font-weight: 600;
+}
+
+.form2-section6-desc h6 {
+  color: #f62431;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.signature {
+  margin-top: 100px;
+  margin-left: 53px;
+  /* border: 1px solid; */
+}
+
+.signature label,
+.signature input {
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+}
+
+.place-outer-container {
+  display: flex;
+}
+
+.place-container {
+  /* width: 72px; */
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.place-container span {
+  margin-left: 10px;
+}
+
+.date-outer-container {
+  display: flex;
+}
+
+.date-container {
+  /* width: 72px; */
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.date-container span {
+  margin-left: 7px;
+}
+
+.name-and-title {
+  margin-top: 80px;
+}
+
+.name-outer-container {
+  display: flex;
+  width: 290px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+.name-container {
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.name-container span {
+  margin-left: 17px;
+}
+
+.title-outer-container {
+  display: flex;
+}
+
+.title-container {
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+/* End of 2nd Form */
+/* End of Forms */
+
+/* Syarat & Ketentuan */
+/* Syarat Ketentuan 1 & 2 */
+.top-logo-and-heading {
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 45px;
+}
+
+.top-logo-container {
+  width: 200px;
+}
+
+.top-logo-container img {
+  width: 100%;
+}
+
+.top-heading-container {
+  margin-top: 30px;
+}
+
+.top-heading-1 h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.top-heading-2 {
+  display: flex;
+  /* border: 1px solid; */
+}
+
+.top-heading-2 h3 {
+  font-size: 23px;
+  font-weight: 500;
+  /* border: 1px solid; */
+}
+
+.top-heading-2-img {
+  width: 87px;
+  margin-left: 10px;
+  /* border: 1px solid; */
+}
+
+.top-heading-2 img {
+  width: 100%;
+}
+
+.form-outer-container {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.leftSide-firstBox {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid; */
+}
+
+.longVerticalLine {
+  width: 4px;
+}
+
+.leftSide .leftRectangles {
+  width: 100px;
+}
+
+.rightSide {
+  position: relative;
+  bottom: 155px;
+  /* border: 1px solid; */
+}
+
+.rightSide img {
+  width: 100px;
+}
+
+.form-container {
+  width: 70%;
+  padding-top: 30px;
+  /* border: 1px solid; */
+}
+
+.form-container ol li {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.form-container ol span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-container ul li {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  list-style: inside;
+  list-style-type: disc;
+}
+/* End of Syarat Ketentuan 1 & 2 */
+
+/* Syarat Ketentuan 3 */
+.bigCity {
+  display: flex;
+}
+
+.nested-ul li {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+.nested-ul-1 {
+  padding-left: 13px;
+}
+
+.nested-ul-2 {
+  padding-left: 5px;
+}
+
+.nested-ul-4 {
+  padding-left: 59px;
+}
+
+.agreementCheckbox {
+  display: flex;
+  margin-top: 25px;
+  /* border: 1px solid; */
+}
+
+.agreementCheckbox-input {
+  margin-right: 10px;
+  padding-top: 3px;
+  /* border: 1px solid; */
+}
+
+.agreementCheckbox-label label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.paymentInfo-and-signature-container {
+  display: flex;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.paymentInfo-firstBox h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.paymentInfo-secondBox {
+  margin-top: 30px;
+}
+
+.paymentInfo-secondBox h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.paymentInfo-detail-outer {
+  display: flex;
+  padding-left: 7px;
+}
+
+.paymentInfo-vertical-line {
+  width: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+
+.paymentInfo-vertical-line img {
+  width: 100%;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.paymentInfo-detail {
+  margin-top: 10px;
+  /* border: 1px solid; */
+}
+
+.accountNumber {
+  display: flex;
+}
+
+.accountNumber h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 73px;
+}
+
+.accountNumber p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.accountName {
+  display: flex;
+}
+
+.accountName h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 53px;
+}
+
+.accountName p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bankName {
+  display: flex;
+}
+
+.bankName h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 45px;
+}
+
+.bankName p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.paymentInfo-vertical-line-2 {
+  width: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-top: 2px;
+  border-radius: 5px;
+}
+
+.paymentInfo-vertical-line-2 img {
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.contactNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactNumber h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.contactNumber p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.signature {
+  margin-left: 175px;
+  /* border: 1px solid; */
+}
+
+input:focus {
+  outline: none;
+}
+
+.signature label,
+.signature input {
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+}
+
+.place-outer-container {
+  display: flex;
+}
+
+.place-container {
+  /* width: 72px; */
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.place-container span {
+  margin-left: 10px;
+}
+
+.date-outer-container {
+  display: flex;
+}
+
+.date-container {
+  /* width: 72px; */
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.date-container span {
+  margin-left: 7px;
+}
+
+.name-and-title {
+  margin-top: 80px;
+}
+
+.name-outer-container {
+  display: flex;
+  width: 290px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+.name-container {
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+.name-container span {
+  margin-left: 17px;
+}
+
+.title-outer-container {
+  display: flex;
+}
+
+.title-container {
+  margin-right: 5px;
+  /* border: 1px solid; */
+}
+
+/* End of Syarat Ketentuan 3 */
+/* End of Syarat & Ketentuan */
