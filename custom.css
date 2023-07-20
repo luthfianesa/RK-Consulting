@@ -1165,7 +1165,7 @@
 }
 
 /* Meet Our Team */
-.our-team-heading {
+.our-team-heading-homepage {
   color: #0f0f0f;
   display: flex;
   margin-top: 100px;
@@ -1178,12 +1178,12 @@
   margin-right: 10px;
 }
 
-.our-team-heading-2 h1 {
+.our-team-heading-2-homepage h1 {
   font-size: 28px;
   font-weight: 600;
 }
 
-.our-team-heading-2 img {
+.our-team-heading-2-homepage img {
   width: 105px;
   margin-left: 65px;
   margin-top: -38px;
@@ -1727,12 +1727,12 @@
     top: -712px;
   }
 
-  .our-team-heading {
+  .our-team-heading-homepage {
     margin-top: 280px;
     margin-bottom: 35px;
   }
 
-  .our-team-heading-2 img {
+  .our-team-heading-2-homepage img {
     margin-left: 61px;
   }
 
@@ -7230,10 +7230,10 @@ iframe {
 /* Home Page Section 2 - Customer Satisfactory Animation */
 
 /* Slide Up */
-.section2AboutUs-container h1,
+.section2Homepage-container h1,
 .misi-textList,
-.section2AboutUs-container h5,
-.section2AboutUs-container h6,
+.section2Homepage-container h5,
+.section2Homepage-container h6,
 .people img,
 .ourServices-heading h2,
 .the-package img,
@@ -7247,10 +7247,10 @@ iframe {
   transition: opacity 0.5s ease, transform 1.5s ease;
 }
 
-.section2AboutUs-container h1.slideUp,
+.section2Homepage-container h1.slideUp,
 .misi-textList.slideUp,
-.section2AboutUs-container h5.slideUp,
-.section2AboutUs-container h6.slideUp,
+.section2Homepage-container h5.slideUp,
+.section2Homepage-container h6.slideUp,
 .people img.slideUp,
 .ourServices-heading h2.slideUp,
 .the-package img.slideUp,
@@ -7276,7 +7276,7 @@ iframe {
 }
 
 /* Slide Left */
-.our-team-heading-2 img,
+.our-team-heading-2-homepage img,
 .fullname h6,
 .ourServices-heading-1 img {
   opacity: 0;
@@ -7284,7 +7284,7 @@ iframe {
   transition: opacity 0.5s ease, transform 2.5s ease;
 }
 
-.our-team-heading-2 img.slideLeft,
+.our-team-heading-2-homepage img.slideLeft,
 .fullname h6.slideleft,
 .ourServices-heading-1 img.slideLeft {
   opacity: 1;
