@@ -113,14 +113,14 @@ function animateTextOnScroll5() {
 }
 
 // Section 5- Pricing
-let textBoxesSection5 = document.querySelectorAll(".section5-heading, .section5-heading h6, .pricingBox img, .pricingBox h5, .pricingBox h6, .pricingBox ul li, .pricing-button");
+let textBoxesSection5 = document.querySelectorAll(".pricing-heading, .pricing-heading h6, .pricingBox img, .pricingBox h5, .pricingBox h6, .pricingBox ul li, .pricing-button");
 
 window.addEventListener("scroll", animateTextOnScroll6);
 
 function animateTextOnScroll6() {
   textBoxesSection5.forEach(function (textBox) {
     if (isElementInViewport(textBox)) {
-      if (textBox.matches(".section5-heading, .section5-heading h6, .pricing-button")) {
+      if (textBox.matches(".pricing-heading, .pricing-heading h6, .pricing-button")) {
         textBox.classList.add("slideUp");
       }
       if (textBox.matches(".pricingBox img, .pricingBox h5, .pricingBox h6")) {
@@ -133,17 +133,17 @@ function animateTextOnScroll6() {
 }
 
 // Section 6 -  Testimoni
-let textBoxesSection6 = document.querySelectorAll(".section6-heading h1, .section6-heading img, .mySlides, .carousel-box, .prev, .next, .testi-container, .testi-indicator ");
+let textBoxesSection6 = document.querySelectorAll(".testimoni-heading h1, .testimoni-heading img, .mySlides, .carousel-box, .prev, .next, .testi-container, .testi-indicator ");
 
 window.addEventListener("scroll", animateTextOnScroll7);
 
 function animateTextOnScroll7() {
   textBoxesSection6.forEach(function (textBox) {
     if (isElementInViewport(textBox)) {
-      if (textBox.matches(".section6-heading h1")) {
+      if (textBox.matches(".testimoni-heading h1")) {
         textBox.classList.add("slideUp");
       }
-      if (textBox.matches(".section6-heading img, .prev")) {
+      if (textBox.matches(".testimoni-heading img, .prev")) {
         textBox.classList.add("slideLeft");
       }
       if (textBox.matches(".next")) {
@@ -284,14 +284,14 @@ function animateTextOnScroll15() {
 }
 
 // Section 3 - Pricing
-let textBoxesSection15 = document.querySelectorAll(".section3OurServices-heading, .section3OurServices-heading h6, .pricingBox img, .pricingBox h5, .pricingBox h6, .pricingBox ul li, .pricing-button");
+let textBoxesSection15 = document.querySelectorAll(".pricing-heading, .pricing-heading h6, .pricingBox img, .pricingBox h5, .pricingBox h6, .pricingBox ul li, .pricing-button");
 
 window.addEventListener("scroll", animateTextOnScroll16);
 
 function animateTextOnScroll16() {
   textBoxesSection15.forEach(function (textBox) {
     if (isElementInViewport(textBox)) {
-      if (textBox.matches(".section3OurServices-heading, .section3OurServices-heading h6, .pricing-button")) {
+      if (textBox.matches(".pricing-heading, .pricing-heading h6, .pricing-button")) {
         textBox.classList.add("slideUp");
       }
       if (textBox.matches(".pricingBox img, .pricingBox h5, .pricingBox h6")) {
@@ -304,17 +304,17 @@ function animateTextOnScroll16() {
 }
 
 // Section 4 - Testimoni
-let textBoxesSection16 = document.querySelectorAll(".section4OurServices-heading h1, .section4OurServices-heading img, .mySlides, .carousel-box, .prev, .next, .testi-container, .testi-indicator ");
+let textBoxesSection16 = document.querySelectorAll(".testimoni-heading h1, .testimoni-heading img, .mySlides, .carousel-box, .prev, .next, .testi-container, .testi-indicator ");
 
 window.addEventListener("scroll", animateTextOnScroll17);
 
 function animateTextOnScroll17() {
   textBoxesSection16.forEach(function (textBox) {
     if (isElementInViewport(textBox)) {
-      if (textBox.matches(".section4OurServices-heading h1")) {
+      if (textBox.matches(".testimoni-heading h1")) {
         textBox.classList.add("slideUp");
       }
-      if (textBox.matches(".section4OurServices-heading img, .prev")) {
+      if (textBox.matches(".testimoni-heading img, .prev")) {
         textBox.classList.add("slideLeft");
       }
       if (textBox.matches(".next")) {
