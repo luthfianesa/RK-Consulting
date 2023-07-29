@@ -55,7 +55,7 @@ function animateOnScroll2() {
 
 // Section 2 - Customer Satisfactory
 let textBoxesSection2 = document.querySelectorAll(
-  ".visiMisi-shortLine, .section2Homepage-container h1, .misi-textList, .section2Homepage-container h5, .section2Homepage-container h6, .our-team-heading-2-homepage img, .people img, .fullname h6, .ourServices-heading h2, .ourServices-heading-1 img, .the-package img, .the-package h5, .the-package p, .ourServices-box img, .ourServices-box h6, .ourServices-box p"
+  ".visiMisi-shortLine, .section2Homepage-container h1, .misi-textList, .misi h2, .visi h2, .section2Homepage-container h5, .section2Homepage-container h6, .our-team-heading-2-homepage img, .people img, .fullname h6, .ourServices-heading h2, .ourServices-heading-2 img, .the-package img, .the-package h5, .the-package p, .package-btn, .package-middle-line, .ourServices-box img, .ourServices-box h6, .ourServices-box p"
 );
 
 window.addEventListener("scroll", animateTextOnScroll3);
@@ -63,7 +63,10 @@ window.addEventListener("scroll", animateTextOnScroll3);
 function animateTextOnScroll3() {
   textBoxesSection2.forEach(function (textBox) {
     if (isElementInViewport(textBox)) {
-      if (textBox.matches(".our-team-heading-2-homepage img, .fullname h6, .ourServices-heading-1 img")) {
+      if (textBox.matches(".misi h2, .visi h2, .our-team-heading-2-homepage img")) {
+        textBox.classList.add("slideRight");
+      }
+      if (textBox.matches(" .fullname h6")) {
         textBox.classList.add("slideLeft");
       }
       if (textBox.matches(".visiMisi-shortLine")) {
