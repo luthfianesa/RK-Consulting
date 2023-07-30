@@ -41,7 +41,7 @@ window.addEventListener("scroll", animateOnScroll2);
 function animateOnScroll2() {
   textBoxesSection1.forEach(function (textBox) {
     if (textBox.matches(".section1Homepage-rightBox")) {
-      textBox.classList.add("slightSlideLeft");
+      textBox.classList.add("skew");
     }
     if (isElementInViewport(textBox)) {
       if (textBox.tagName === "IMG") {
