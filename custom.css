@@ -122,6 +122,9 @@
   color: #fff;
   height: 65px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
   padding-right: 25px;
   border-right: 1px solid;
   /* border: 1px solid; */
@@ -137,11 +140,6 @@
   /* border: 1px solid; */
 }
 
-.textBox-number h4 {
-  font-size: 30px;
-  font-weight: 600;
-}
-
 .textBox-list {
   text-align: center;
   /* border: 1px solid; */
@@ -149,6 +147,7 @@
 
 .textBox-list ul {
   font-size: 13px;
+  font-weight: 600;
   line-height: 20px;
   list-style: none;
   /* padding-top: 12px; */
@@ -4269,7 +4268,8 @@
 .headerContact-text-center-inner-container {
   display: flex;
   justify-content: space-evenly;
-  width: 1000px;
+  /* width: 1000px; */
+  width: 90%;
   background-color: #f62431;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -4281,6 +4281,7 @@
   height: 65px;
   display: flex;
   padding-right: 25px;
+  padding-left: 15px;
   border-right: 1px solid;
   /* border: 1px solid; */
 }
@@ -4340,6 +4341,8 @@
 
   .headerContact-textBox {
     width: 200px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
 }
 
@@ -4527,14 +4530,19 @@
 
 @media screen and (min-width: 992px) and (max-width: 1080px) {
   .headerContact-text-center-container {
-    width: 90%;
+    width: 95%;
     bottom: 20px;
   }
 
   .headerContact-text-center-inner-container {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .headerContact-textBox {
+   padding-right: 20px;
   }
 }
 
@@ -4629,14 +4637,15 @@
   }
 
   .headerContact-text-center-inner-container {
-    width: 80%;
-    padding-left: 20px;
+    width: 90%;
+    padding-left: 10px;
   }
 
   .headerContact-text-center-inner-container {
     background-color: #f62431;
     padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
+    padding-bottom: 30px;
     border-radius: 15px;
   }
 
@@ -4696,7 +4705,7 @@
 
   .headerContact-image-1 {
     width: 280px;
-    top: 40px;
+    top: 10px;
     left: -140px;
   }
 
@@ -4711,7 +4720,7 @@
   }
 
   .headerContact-image-2 img {
-    width: 100%;
+    width: 90%;
     /* border: 1px solid; */
   }
 
@@ -4722,7 +4731,7 @@
   }
 
   .headerContact-text-center-inner-container {
-    width: 80%;
+    width: 90%;
     padding-left: 20px;
   }
 
