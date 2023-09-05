@@ -92,7 +92,7 @@
             </div>
             <div class="textBox-list">
               <ul>
-                <li>Years of </li>
+                <li>Years of</li>
                 <li>Experience in Accounting</li>
               </ul>
             </div>
@@ -190,12 +190,12 @@
               Kolom yang harus diisi ditandai dengan *
             </p>
           </div>
-          <form class="section1Contact-right-content-form" action="">
-            <input type="text" placeholder="Nama*" required />
-            <input type="email" placeholder="Email*" />
-            <input type="number" placeholder="Nomor Telepon*" />
-            <textarea name="message" id="message" placeholder="Pesan" cols="30" rows="10"></textarea>
-            <button>Konsultasi Sekarang</button>
+          <form class="section1Contact-right-content-form" id="myForm" action="">
+            <input type="text" placeholder="Nama*" id="name" required />
+            <input type="email" placeholder="Email*" id="email" required/>
+            <input type="number" placeholder="Nomor Telepon*" id="number" required/>
+            <textarea name="message" id="message" placeholder="Pesan" cols="30" rows="10" required></textarea>
+            <button onclick="redirectToWhatsApp()">Konsultasi Sekarang</button>
           </form>
         </div>
       </div>

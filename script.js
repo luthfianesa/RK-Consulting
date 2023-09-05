@@ -378,3 +378,39 @@ function animateTextOnScroll20() {
   });
 }
 // End of Scroll Down Animation
+
+// Redirect to Whatsapp
+function redirectToWhatsApp() {
+  let whatsappNumber = "6287827572100";
+
+  // Get value from the form input
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let number = document.getElementById("number").value;
+  let message = document.getElementById("message").value;
+
+  if (!name || !email || !number) {
+    alert("Please fill the empty input");
+    return;
+  }
+
+  // Check if the "message" field is empty, and set a default message if it is
+  if (!message) {
+    message = "Mau tanya tentang layanan RK-Consulting";
+    document.getElementById("message").value = message; // Fill the "message" field with the default message
+  }
+
+  // Make a whatsapp message
+  let whatsappMessage = "Halo, Saya " + name + "\n" + "Email : " + email + "\n" + "No Telp : " + number + "\n" + message;
+
+  // Create whatsapp link
+  let whatsappLink = "https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + encodeURIComponent(whatsappMessage);
+
+  // Redirect user to whatsapp link created
+  window.location.href = whatsappLink;
+}
+
+// // Add event listener to submit button
+document.getElementById("myForm").addEventListener("submit", function (event) {
+  event.preventDefault();
+});
